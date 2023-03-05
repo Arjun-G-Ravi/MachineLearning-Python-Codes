@@ -1,0 +1,10 @@
+Whenever using ML:
+
+    1) Design the model (the forward pass), the input size and output size
+    2) Construct loss and the optimiser
+    3) Training loop
+         - Forward pass: Compute prediction
+         - Backward pass: Gradients
+         - Compute loss for accuracy check
+         - Update weights
+
